@@ -27,9 +27,5 @@ jobs:
 
       - name: Run chart-releaser
         uses: helm/chart-releaser-action@v1.2.1
-          with:
-            charts_dir: charts
-            owner: 4c74356b41
-            git-base-url: https://api.github.com/
         env:
           CR_TOKEN: "${{ secrets.GITHUB_TOKEN }}"
