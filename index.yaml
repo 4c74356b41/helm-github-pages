@@ -29,6 +29,21 @@ entries:
     version: 1.11.2
   discovery:
   - apiVersion: v1
+    created: "2021-11-30T08:32:34.042487496Z"
+    description: Helm chart for istio control plane
+    digest: db9eac237c1d92a0d6dfc5410bf5c32c2da41668078f58c96e5b1f3c41c3fb92
+    icon: https://istio.io/latest/favicons/android-192x192.png
+    keywords:
+    - istio
+    - istiod
+    - istio-discovery
+    name: discovery
+    sources:
+    - http://github.com/istio/istio
+    urls:
+    - https://github.com/4c74356b41/helm-github-pages/releases/download/discovery-1.11.4/discovery-1.11.4.tgz
+    version: 1.11.4
+  - apiVersion: v1
     created: "2021-09-25T16:06:38.758524627Z"
     description: Helm chart for istio control plane
     digest: fe4766adf6ef75c813535d3205239d993256517cfc5a168dfb5a87eb6479bc6c
@@ -44,6 +59,21 @@ entries:
     - https://github.com/4c74356b41/helm-github-pages/releases/download/discovery-1.11.2/discovery-1.11.2.tgz
     version: 1.11.2
   ingress:
+  - apiVersion: v1
+    created: "2021-11-30T08:32:34.198042344Z"
+    description: Helm chart for deploying Istio gateways
+    digest: 955cb9d48a604c5cd7f1d7da4c9fcdeaa9978a945272bc1bf5578be0c76929d2
+    icon: https://istio.io/latest/favicons/android-192x192.png
+    keywords:
+    - istio
+    - ingressgateway
+    - gateways
+    name: ingress
+    sources:
+    - http://github.com/istio/istio
+    urls:
+    - https://github.com/4c74356b41/helm-github-pages/releases/download/ingress-1.11.4/ingress-1.11.4.tgz
+    version: 1.11.4
   - apiVersion: v1
     created: "2021-09-25T16:06:38.897444939Z"
     description: Helm chart for deploying Istio gateways
@@ -91,4 +121,4 @@ entries:
     urls:
     - https://github.com/4c74356b41/helm-github-pages/releases/download/istio-ingress-1.11.4/istio-ingress-1.11.4.tgz
     version: 1.11.4
-generated: "2021-11-30T08:27:12.038822576Z"
+generated: "2021-11-30T08:32:34.198073345Z"
